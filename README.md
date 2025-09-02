@@ -309,8 +309,6 @@ int main() {
 
 #### How Does This Work?
 
-##### Part 2 - Listener Server
-
 ---
 
 1. **Imports and Setup**
