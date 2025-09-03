@@ -6,7 +6,7 @@ import types
 sel = selectors.DefaultSelector()
 
 # Use fixed IP and port to match your C code
-HOST = '192.168.1.6'   # listen on all interfaces
+HOST = '192.168.1.6'   
 PORT = 5678        # match SERVER_PORT in C
 
 lsock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -65,3 +65,4 @@ except KeyboardInterrupt:
     print('Caught keyboard interrupt, exiting')
 finally:
     sel.close()
+
